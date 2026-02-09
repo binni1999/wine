@@ -4,8 +4,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from urllib.parse import urlparse
 import numpy as np
 import joblib
-from mlProject.utils.common import save_json
-from mlProject.entity.config_entity import ModelEvaluationConfig
+from src.mlProject.utils.common import save_json
+from src.mlProject.entity.config_entity import ModelEvaluationConfig
 from pathlib import Path
 
 
